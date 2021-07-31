@@ -509,19 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_i.xml \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_ii.xml \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pine_zoom4x_up_morpho_hht_params_imx486_iii.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k2l7_8953_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_8953_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k2l7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k2l7sx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7sx_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3m2xm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3m3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
-    vendor/xiaomi/pine/proprietary/vendor/etc/camera/s5k5e9yu05_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e9yu05_mono_chromatix.xml \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/vdclear_hht_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_i.xml \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/vdclear_hht_params_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_ii.xml \
     vendor/xiaomi/pine/proprietary/vendor/etc/camera/vdclear_hht_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_iii.xml \
@@ -1543,32 +1530,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_eeprom.so \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ofilm_ohs0443_ov12a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_ohs0443_ov12a10_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ofilm_ohs0443_ov13880_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_ohs0443_ov13880_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13880.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov2281.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2281.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov2680.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov2685.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2685.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov4188.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4188.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov4688.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov5645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5645.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov5670.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov7251.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov8856_2lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856_2lane.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov8856_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856_4lane.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
-    vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_ov8865.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865.so \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/xiaomi/pine/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
